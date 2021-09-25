@@ -99,9 +99,12 @@ Inicio do css do formulario de cadastro
 .main-container-formulario{
     display: flex;
     margin:10px 100px 20px;
+    padding:10px;
     /*justify-content: center;*/
     /*flex-direction: row;*/
-    background-color: aliceblue;
+    background-color: rgba(177, 42, 42, 0);    
+    border: black;
+    border-style: solid;
     
 }
 
@@ -119,23 +122,36 @@ Inicio do css do formulario de cadastro
     border-radius: 5px;
 }
 
-.subcontainer-formulario:hover{
+.botao{
+    display: flex;
+    padding: 10px;
+}
+
+.subcontainer-formulario:hover,
+.subcontainer-formulario:focus{
     font-size: large;
     font-weight: bold;
+    transition: 1s;
 }
 
 
 
-input[type=submit]:hover{
+input[type=submit]:hover,
+input[type=submit]:focus{
     background-color: blue;
     color: white;
     font-size: large;
     font-weight: bold;
+    transform: translateX(10px) scale(1.2);
+    transition: 1s;
 }
 
-input[type=reset]:hover{
+input[type=reset]:hover,
+input[type=reset]:focus{
     background-color: crimson;
     color: white;
     font-size: large;
-    font-weight: bold
+    font-weight: bold;
+    transform: translateX(10px) scale(1.2);
+    transition: 1s;
 }
