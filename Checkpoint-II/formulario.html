@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Cadastro</title>    
+</head>
+<body>
+    <header class="header">
+        <h1>Formulário de Cadastro</h1>        
+    </header>
+    <div class="main-container-formulario">
+        <form class="formulario">
+            <div class="subcontainer-formulario">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" maxlength="100" placeholder="Digite o seu nome">
+            </div>
+            <div class="subcontainer-formulario">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu email">
+            </div>
+            <div class="subcontainer-formulario">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="9-9999-9999" pattern="[0-9]{1}-[0-9]{4}-[0-9]{4}">
+            </div>
+            <div class="subcontainer-formulario">
+                <label for="aniversario">Data de nascimento</label>
+                <input type="date" name="aniversairo" id="aniversario" placeholder="Digite a data de nascimento">
+            </div>
+            <div class="subcontainer-formulario">
+                <p>Maior ou menor de idade?</p>
+                <input type="radio" id="maior" name="idade" value="S">
+                <label for="maior">Sim, sou de maior (+ de 18 anos)</label><br>
+                <input type="radio" id="menor" name="idade" value="N">
+                <label for="menor">Sou menor (- de 18 anos)</label>
+            </div>
+            <div class="subcontainer-formulario">
+                <p>Pontos que achou interessante da Cidade (pode ser marcado mais de 1)</p>
+                <input type="checkbox" id="interesse1" name="interesse1" value="1">
+                <label for="interesse1">Cidade Arborizada</label>
+                <input type="checkbox" id="interesse2" name="interesse2" value="2">
+                <label for="interesse2">Cerveja Artesanal</label>
+                <input type="checkbox" id="interesse3" name="interesse3" value="3">
+                <label for="interesse3">Cidade planejada</label>
+            </div>
+            <div class="subcontainer-formulario">
+                <p>Interesses na cidade (opcional)</p>
+                <input type="checkbox" id="interesse4" name="interesse4" value="4">
+                <label for="interesse4">Para Turismo</label>
+                <input type="checkbox" id="interesse5" name="interesse5" value="5">
+                <label for="interesse5">Para Residir</label>
+                <input type="checkbox" id="interesse6" name="interesse6" value="6">
+                <label for="interesse6">Para Estudar</label>
+            </div>
+            <div class="botoesDeAcao" >
+                <input type="submit" value="Submit">            
+                <input type="reset" value="Resetar">
+            </div>
+        </form>
+</div>
+</body>
+</html>

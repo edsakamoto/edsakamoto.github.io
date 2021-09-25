@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+/*font-family: 'Noto Sans JP', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Noto+Sans+JP&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+html, *{
+    margin:0;
+    padding: 0;    
+
+}
+
+body{    
+    background-color: rgba(180, 29, 29, 0.685);    
+}
+
+.cabecalho{
+    font-family:'Montserrat', sans-serif; 
+    font-size: 50pt;
+    padding-top: 10px;
+}
+
+.container-principal{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#id1{
+    width: 50%;
+    
+}
+
+.video{
+    margin: 10px auto;
+    width: 1280px;
+    height: 720px;    
+    display: block;
+}
+
+#id2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20;
+    position: relative;
+    left: 20%;
+    top:60px;
+    
+    
+}
+
+.container{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+
+#id3{
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+
+footer{
+    position: relative;
+    
+}
+
+.footer-img{
+    position: relative;
+    left: 47.5%;
+}
+
+#botaoFormulario{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+/*-------------------------------------
+Inicio do css do formulario de cadastro
+---------------------------------------*/
+.header{
+    display:flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.main-container-formulario{
+    display: flex;
+    margin:10px 100px 20px;
+    /*justify-content: center;*/
+    /*flex-direction: row;*/
+    background-color: aliceblue;
+    
+}
+
+
+.subcontainer-formulario{
+    margin:20px;
+    justify-content: inherit;
+}
+
+.botoesDeAcao{
+    margin:10px;
+    display: flex;    
+    padding: 5px 15px;
+    gap:80px;
+    border-radius: 5px;
+}
+
+.subcontainer-formulario:hover{
+    font-size: large;
+    font-weight: bold;
+}
+
+input[type=submit]:hover{
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+input[type=reset]:hover{
+    background-color: crimson;
+    color: white;
+    font-size: large;
+    font-weight: bold
+}
