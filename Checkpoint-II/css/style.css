@@ -80,6 +80,13 @@ footer{
     padding: 10px;
     margin: 10px;
 }
+
+button:hover{
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
 /*-------------------------------------
 Inicio do css do formulario de cadastro
 ---------------------------------------*/
@@ -116,6 +123,8 @@ Inicio do css do formulario de cadastro
     font-size: large;
     font-weight: bold;
 }
+
+
 
 input[type=submit]:hover{
     background-color: blue;
